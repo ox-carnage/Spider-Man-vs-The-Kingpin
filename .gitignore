@@ -1,0 +1,10 @@
+*.cfg
+*.gs*
+*.md
+*.dat
+*.dll
+*.id0
+*.id1
+*.nam
+*.til
+bin/*.bin
