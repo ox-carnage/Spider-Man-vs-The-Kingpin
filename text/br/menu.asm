@@ -1,4 +1,4 @@
-origin $00084121
+origin $000840F0
 text_menu_00:
 menu_text("INICIAR JOGO")
 text_menu_01:
@@ -41,9 +41,7 @@ menu_text("    SIM")
 origin $0003BEEC
 text_menu_16:
 menu_text("    NAO")
-origin $00084201
-text_menu_18:
-menu_text("FORKLIFT")
+
 
 
 

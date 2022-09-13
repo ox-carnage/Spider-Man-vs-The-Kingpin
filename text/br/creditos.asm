@@ -1,6 +1,6 @@
 	
-origin $00085AD0
-text_dialogue_14:
+origin $00085D30
+text_credits_00:
     db $0B
     db $04
     db $1E
@@ -346,13 +346,28 @@ character_other()
     db $01
     db $04
     db $1E
-credits("GRUPO MONKEY'S TRADUCOES V-2.0 ANO 2022    ")
+credits("GRUPO MONKEY'S TRADUCOES V-2.0 ANO 2022     ")
+credits("                                              ")
+credits("                                              ")
+credits("                                              ")
+credits("                                              ")
+credits("                                              ")
+credits("                                              ")
     db $00 
     db $01  
     db $03   
     db $01    
     db $0D 
-    db $1E                                                                                                                                                                                                                                                                                                                      db $00   db $06    db $03 db $00  db $00   db $00
-
+    db $1E
+    db $00
+    db $20
+    db $06
+    db $20
+    db $03
+    db $00
+    db $20
+    db $00
+    db $20
+    db $00
 fim()
 

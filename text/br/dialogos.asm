@@ -1,5 +1,42 @@
 	
-origin $00084825
+origin $000842F0
+text_dialogue_00:
+	dialogue_text("BOM DIA, POVO DE NOVA IORK.  MEU NOME NAO E IMPORTANTE.  ")
+    dialogue_text("SOU APENAS UM CIDADAO AMERICANO.  ESTAMOS CONVIVENDO COM UM MONSTRO.  ")
+    dialogue_text("UM RENEGADO MAIS CONHECIDO COMO, HOMEM-ARANHA.  ELE JUROU ACABAR ")
+    dialogue_text("COMIGO, JUSTO EU O MAIOR FILANTROPO DESSA CIDADE.  ELE ESCONDEU UMA BOMBA ")
+    dialogue_text("QUE IRA DESTRUIR TODA ESSA CIDADE.  PRECISAMOS FAZER ALGO, ESTOU OFERECENDO ")
+    dialogue_text("UMA RECOMPENSA DE $10,000 PELA SUA CAPTURA.  ")
+    dialogue_text("TEMOS QUE NOS PROTEGER DESSA AMEACA...       ")
+    dialogue_text("                 ")
+text_dialogue_01:
+    dialogue_text("PARABENS, HOMEM-ARANHA!  ")
+    dialogue_text("VOCE ACABOU COM OS MEUS MELHORES CAPANGAS.  ")
+    dialogue_text("MAS CREIO QUE ESSA AVENTURA PARA VOCE NAO ")
+    dialogue_text("PASSOU DE UMA SIMPLES BRINCADEIRA.  ")
+    dialogue_text("POR QUE NAO TORNA ISSO UM POUCO MAIS INTERESSANTE, ")
+    dialogue_text("JOGANDO EM UM NIVEL MAIS DIFICIL?  ")
+    dialogue_text("LEMBRE-SE QUE AINDA NAO CONSEGUIU PEGAR TODAS AS CHAVES PARA DESARMAR A BOMBA. ")
+    dialogue_text("ACHA QUE CONSEGUE?  HA HA HA HA...         ")
+    dialogue_text("                      ")
+text_dialogue_02:
+    dialogue_text("BOA NOITE MAIS UMA VEZ, NOVA YORK.  ")
+    dialogue_text("LAMENTO INFORMAR, MAS O HOMEM-ARANHA ENLOUQUECEU.  ")
+    dialogue_text("AGORA ELE DESTRUIU UM DEPOSITO ABANDONADO E ANDA SE ")
+    dialogue_text("BALANCANDO NOS ESGOTOS DESSA CIDADE.  NOSSA POLICIA ESTA FAZENDO DE ")
+    dialogue_text("ESTOU DISPOSTO A AUMENTAR A MINHA OFERTA, AGORA SAO $50,000 PELA SUA CAPTURA.  ")
+    dialogue_text("AUMENTEM A VIGILANCIA!  AGORA MAIS DO QUE NUNCA DEVEMOS NOS PROTEGER...        ")
+    dialogue_text("                            ")
+text_dialogue_03:
+    dialogue_text("BOA NOITE, HOMEM-ARANHA, OU DEVO DIZER 'BOM DIA'?  ")
+    dialogue_text("VOCE NAO ESTAVA ERRADO, CONSEGUIU MESMO DESTRUIR MINHA ")
+    dialogue_text("TRANSMISSAO PARA TODA A CIDADE.  MAS ESSA TRANSMISSAO E PRIVADA, UTILIZANDO ")
+    dialogue_text("UMA FREQUENCIA DE UM VELHO AMIGO SEU.  SEI QUE VOCE PODE ACHAR A FONTE ")
+    dialogue_text("DESSA TRANSMISAO MAS SEI TAMBEM QUE VOCE NAO E TOLO O BASTANTE PARA FAZER ISSO.  ")
+    dialogue_text("ESTOU COM A SUA QUERIDA ESPOSA, TRAZIDA POR UM DOS MEUS AMIGOS.  QUALQUER ")
+    dialogue_text("TENTATIVA SUA DE DESARMAR A BOMBA O SEU NOME CAUSARA A MORTE DELA.  ")
+    dialogue_text("ESPERO QUE AGORA, VOCE SAIBA COM QUEM ESTA LIDANDO....                                               ")
+    dialogue_text("                              ")
 text_dialogue_04:
 	start_line()
     text("MARAVILHA!!!  O CARA COM A MAIOR  ")
@@ -76,7 +113,6 @@ text_dialogue_04:
     db $03
     db $00
     db $00
-origin $00084A61
 text_dialogue_05:
 	start_line()
     text("ESTA CERTO, DOUTOR! COMECE A ")
@@ -163,8 +199,6 @@ text_dialogue_05:
     db $00
     db $03
     db $03
-    
-origin $00084CF0
 text_dialogue_06:
 	start_line()
     text("AGORA, JA TENHO DUAS CHAVES!")
@@ -241,7 +275,6 @@ text_dialogue_06:
     db $03
     db $00
     db $00
-origin $00084EE0
 text_dialogue_07:
     start_line()
     text("CARA, JA ESTOU FICANDO SEM")
@@ -314,7 +347,6 @@ text_dialogue_07:
     db $03
     db $00
     db $00
-origin $00850F1
 text_dialogue_08:
     start_line()
     text(" AGORA JA SAO TRES CHAVES!")
@@ -435,7 +467,6 @@ text_dialogue_08:
     db $03
     db $00
     db $00
-origin $00085441
 text_dialogue_09:
     start_line()
     text("DROGA! ESSE FOI O PRIMEIRO QUE ")
@@ -520,7 +551,6 @@ text_dialogue_09:
     db $03
     db $00
     db $00
-origin $000856A0
 text_dialogue_10:
     start_line()
     text("ISSO!")
@@ -607,8 +637,6 @@ text_dialogue_10:
     db $03
     db $00
     db $00
-
-origin $000858B1
 text_dialogue_11:
     start_line()
     text("A CENA AGORA MUDA PARA O LAR")
@@ -645,7 +673,6 @@ text_dialogue_11:
     db $03
     db $00
     db $00
-origin $000859B1
 text_dialogue_12:
     start_line()
     text("MUITO BEM, SE VOCE PENSA QUE")
@@ -685,4 +712,31 @@ text_dialogue_12:
     db $03
     db $03
     db $00
-    db $00
+    db $00 
+text_dialogue_13:
+dialogue_text("PONTUACAO ATUAL:")
+text_dialogue_14:
+dialogue_text("BONUS POR TERMINAR A FASE:")
+text_dialogue_15:
+dialogue_text("FOTOS TIRADAS:")
+text_dialogue_16:
+dialogue_text("FLUIDO DE TEIA")
+text_dialogue_17:
+dialogue_text("DINHEIRO TOTAL")
+text_dialogue_18:
+dialogue_text("SEM FOTOS TIRADAS")
+text_dialogue_19:
+dialogue_text("FIM DE JOGO")
+text_dialogue_20:
+dialogue_text("PARABENS !!!")
+text_dialogue_21:
+dialogue_text("VOCE GANHOU NO MODO PESADELO!")
+text_dialogue_22:
+dialogue_text("VOCE GANHOU NO MODO NORMAL!")
+text_dialogue_23:
+dialogue_text("   PONTUACAO MAXIMA:")
+text_dialogue_24:
+dialogue_text("TEMPO RESTANTE:    :  :")
+    
+    
+

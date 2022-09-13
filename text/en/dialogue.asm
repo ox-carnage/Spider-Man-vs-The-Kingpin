@@ -1,5 +1,39 @@
-	
-origin $00042A68
+origin $000842F0
+text_dialogue_00:
+	dialogue_text("GOOD EVENING, NEW YORK.  MY NAME IS OF NO IMPORTANCE.  ")
+    dialogue_text("I AM MERELY A CONCERNED CITIZEN--A CITIZEN WHO HAS LEARNED OF SOMETHING MONSTROUS.  ")
+    dialogue_text("THE RENEGADE KNOWN AS SPIDER-MAN IS SEEKING REVENGE UPON YOU.  ")
+    dialogue_text("HE HAS HIDDEN A BOMB WHICH WILL EXPLODE IN EXACTLY 24 HOURS, LEVELING THIS CITY, ")
+    dialogue_text("UNLESS WE FORCE HIM TO CONFESS ITS LOCATION.  ")
+    dialogue_text("I OFFER A $10,000 REWARD FOR HIS APPREHENSION.  ")
+    dialogue_text("WE MUST PROTECT OURSELVES...       ")
+    dialogue_text("                 ")
+text_dialogue_01:
+    dialogue_text("CONGRATULATIONS, SPIDER-MAN!  ")
+    dialogue_text("YOU HAVE BEATEN SOME OF MY BEST-PAID ASSOCIATES.  ")
+    dialogue_text("BUT I THINK YOU WILL FIND THE REST OF YOUR ADVENTURE MORE THAN ")
+    dialogue_text("A MATCH FOR YOUR ESTEEMED SELF.  ")
+    dialogue_text("WHY DON'T YOU TAKE THE CHALLENGE AND PLAY THIS GAME IN A HARDER LEVEL?  ")
+    dialogue_text("I DON'T THINK YOU WILL DO SO WELL, NEXT TIME...")
+    dialogue_text("                      ")
+text_dialogue_02:
+    dialogue_text("GOOD EVENING ONCE AGAIN, NEW YORK.  ")
+    dialogue_text("I REGRET TO INFORM YOU THAT SPIDER-MAN HAS APPARENTLY GONE MAD, ")
+    dialogue_text("DESTROYING AN ABANDONED WAREHOUSE AND LURCHING THROUGH THE SEWERS ")
+    dialogue_text("IN AN UNCONTROLLED FASHION.  OUR POLICE, OF COURSE, ARE DOING ")
+    dialogue_text("A HEROIC JOB, BUT I AM NOW PREPARED TO INCREASE MY OFFER TO $50,000.  ")
+    dialogue_text("INCREASE YOUR VIGILANCE--NOW MORE THAN EVER, WE MUST PROTECT OURSELVES...    ")
+    dialogue_text("                        ")
+text_dialogue_03:
+    dialogue_text("GOOD EVENING, SPIDER-MAN--OR SHOULD I SAY 'GOOD MORNING?'  ")
+    dialogue_text("YOU'RE NOT WRONG--YOU DID DESTROY MY ABILITY TO BROADCAST CITY-WIDE.  ")
+    dialogue_text("BUT THIS IS A PRIVATE TRANSMISSION, ON THE BAND UTILIZED BY YOUR SPIDER-TRACER.  ")
+    dialogue_text("I REALIZE THAT YOU WILL THUS BE ABLE TO TRACE THE SOURCE OF THIS TRANSMISSION, ")
+    dialogue_text("BUT I DON'T BELIEVE EVEN YOU WILL BE FOOLISH ENOUGH TO DO SO.  ")
+    dialogue_text("BECAUSE I HAVE HAD YOUR FRIENDS' WIFE BROUGHT TO ME, AND ANY FURTHER ATTEMPT TO ")
+    dialogue_text("STOP ME FROM DETONATING THE BOMB IN YOUR NAME WILL CAUSE HER UNFORTUNATE DEMISE.  ")
+    dialogue_text("I HOPE YOU NOW REALIZE WITH WHOM YOU ARE DEALING.")
+    dialogue_text("                              ")
 text_dialogue_04:
 	start_line()
     text("WONDERFUL!  THE KINGPIN'S THE  ")
@@ -43,7 +77,6 @@ text_dialogue_04:
     db $03
     db $00
     db $00
-origin $00084A5C
 text_dialogue_05:
 	start_line()
     text(" ALL RIGHT, DOC!  COUGH UP THE")
@@ -130,7 +163,6 @@ text_dialogue_05:
     db $03
     db $00
     db $00
-origin $00084C70
 text_dialogue_06:
 	start_line()
     text(" THAT MAKES TWO KEYS!  HOW MANY")
@@ -217,7 +249,6 @@ text_dialogue_06:
     db $03
     db $00
     db $00
-origin $00084E75
 text_dialogue_07:
     start_line()
     text(" BOY, I HOPE I NEVER GET ON THAT")
@@ -304,7 +335,6 @@ text_dialogue_07:
     db $03
     db $00
     db $00
-origin $0085092
 text_dialogue_08:
     start_line()
     text(" THREE KEYS!  BOY, IF I KEEP")
@@ -406,7 +436,6 @@ text_dialogue_08:
     db $03
     db $00
     db $00
-origin $00085311
 text_dialogue_09:
     start_line()
     text(" DARN!  THAT'S THE FIRST ONE THAT")
@@ -493,7 +522,6 @@ text_dialogue_09:
     db $03
     db $00
     db $00
-origin $00085541
 text_dialogue_10:
     start_line()
     text(" THAT'S FIVE KEYS!  I COULD WRITE")
@@ -586,8 +614,6 @@ text_dialogue_10:
     db $03
     db $00
     db $00
-
-origin $00085762
 text_dialogue_11:
     start_line()
     text("OUR SCENE NOW SHIFTS TO THE HOME")
@@ -634,7 +660,6 @@ text_dialogue_11:
     db $03
     db $00
     db $00
-origin $00085871
 text_dialogue_12:
     start_line()
     text(" I REALIZE, ALL RIGHT--BUT IF")
@@ -680,4 +705,30 @@ text_dialogue_12:
     db $03
     db $03
     db $00
-    db $00
+    db $00 
+text_dialogue_13:
+dialogue_text("CURRENT SCORE:")
+text_dialogue_14:
+dialogue_text("LEVEL COMPLETION BONUS:")
+text_dialogue_15:
+dialogue_text("PICTURES TAKEN:")
+text_dialogue_16:
+dialogue_text("WEB FLUID")
+text_dialogue_17:
+dialogue_text("TOTAL MONEY")
+text_dialogue_18:
+dialogue_text("NO PICTURES TAKEN")
+text_dialogue_19:
+dialogue_text("GAME OVER")
+text_dialogue_20:
+dialogue_text("CONGRATULATIONS !!!")
+text_dialogue_21:
+dialogue_text("YOU HAVE WON IN NIGHTMARE MODE!")
+text_dialogue_22:
+dialogue_text("YOU HAVE WON IN NORMAL MODE!")
+text_dialogue_22:
+dialogue_text("    HIGH SCORE:")
+text_dialogue_23:
+dialogue_text("TIME REMAINING:    :  :")
+        
+    

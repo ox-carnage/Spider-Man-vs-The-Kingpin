@@ -40,8 +40,10 @@ origin ROM_START
 
 if (CONFIG_LANGUAGE == ENGLISH) {
 
-    //include "text/en/teste.asm"
-    //include "text/en/teste 1.asm"
+    //include "text/en/credits.asm"
+    //include "text/en/menu.asm"
+    //include "text/en/locations.asm"
+    //include "text/en/dialogue.asm"
 }
 
 
@@ -51,14 +53,14 @@ if (CONFIG_LANGUAGE == PORTUGUESE) {
     define   CONFIG_ROM_REGION("JUE")
 
     
-    //include "text/br/credits.asm"
+    include "text/br/creditos.asm"
     include "text/br/menu.asm"
-    include "text/br/locations.asm"
-    //include "text/br/teste 1.asm"
+    include "text/br/locais.asm"
+    include "text/br/dialogos.asm"
+   
 }
 
 include "asm/pointers.asm"
-
 
 origin $00000150
     db {CONFIG_ROM_NAME}

@@ -1,4 +1,4 @@
-origin $00084211
+origin $000841E1
 location_00:
 text_location("CAVERNS LEVEL COMPLETED!!")
 location_01:
