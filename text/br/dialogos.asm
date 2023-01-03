@@ -716,7 +716,7 @@ text_dialogue_12:
 text_dialogue_13:
 dialogue_text("PONTUACAO ATUAL:")
 text_dialogue_14:
-dialogue_text("BONUS POR TERMINAR A FASE:")
+dialogue_text("BONUS POR ACABAR A FASE:")
 text_dialogue_15:
 dialogue_text("FOTOS TIRADAS:")
 text_dialogue_16:

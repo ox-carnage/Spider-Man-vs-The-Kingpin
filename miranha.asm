@@ -57,10 +57,12 @@ if (CONFIG_LANGUAGE == PORTUGUESE) {
     include "text/br/menu.asm"
     include "text/br/locais.asm"
     include "text/br/dialogos.asm"
+    include "text/br/personagens.asm"
    
 }
 
 include "asm/pointers.asm"
+include "asm/pointers_personagem.asm"
 
 origin $00000150
     db {CONFIG_ROM_NAME}
