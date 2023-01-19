@@ -32,7 +32,7 @@ define   CONFIG_ROM_SIZE(eof)
 
 origin ROM_START
     // ; Original File
-    insert "bin/Spider-Man vs The Kingpin-org.md"
+    insert "bin/Spider-Man vs The Kingpin-org - Copia.md"
     
     // ; Includes
     include "asm/macros.asm"

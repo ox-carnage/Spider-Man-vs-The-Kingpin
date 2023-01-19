@@ -313,6 +313,14 @@ rotina_dialogo_24:
 	move.l  d0,-(a7)
 	jmp $0000339A
 
+origin $0004E9E6
+	move.w  d0,(VDP_DATA).l
+	addq.w  #1,d7
+	cmp.w   d7,d2
+	bgt.s   loc_4E9E2
+	clr.w   d7
+	jmp $0004E9F4
+
 //START TABLE POINTER CREDITS
 origin $00000744
 	dl	text_credits_00
