@@ -22,3 +22,9 @@ constant ALIGNTEXT($0305010D)
 // GAME
 constant ROM_START($0000000)
 constant ROM_END($00100000)
+
+// CONSOLE
+constante VDP_DATA( $C00000 )
+constante VDP_CTRL( $C00004 )
+constante M68K_RAM( $FF0000 )
+constant font_original_vram ($F000)

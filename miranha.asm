@@ -75,4 +75,7 @@ origin $000001F0
 
     define CONFIG_ROM_SIZE(pc())
 
+origin $0003F6AC 
+desvio_1:
+    beq.s   $03F6D0
 eof:
