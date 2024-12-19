@@ -9,6 +9,7 @@ text_dialogue_00:
     dialogue_text("UMA RECOMPENSA DE $10,000 PELA SUA CAPTURA.  ")
     dialogue_text("TEMOS QUE NOS PROTEGER DESSA AMEACA...       ")
     dialogue_text("                 ")
+    db $00
 text_dialogue_01:
     dialogue_text("PARABENS, HOMEM-ARANHA!  ")
     dialogue_text("VOCE ACABOU COM OS MEUS MELHORES CAPANGAS.  ")

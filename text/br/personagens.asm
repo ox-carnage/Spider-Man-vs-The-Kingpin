@@ -3,11 +3,11 @@ origin $000866C0
 text_character_00:
  dialogue_text("VENOM")   
 text_character_01:
- dialogue_text("X479 ROBOT")
+ dialogue_text("ROBO X479")
 text_character_02:
  dialogue_text("VENOM")
 text_character_03:
- dialogue_text("HOBGOBLIN")
+ dialogue_text("DUENTE MACABRO")
 text_character_04:
  dialogue_text("MOTOCICLISTA")
 text_character_05:
@@ -15,23 +15,23 @@ text_character_05:
 text_character_06:
  dialogue_text("VENOM")
 text_character_07:
- dialogue_text("SANDMAN")
+ dialogue_text("HOMEM AREIA")
 text_character_08:
- dialogue_text("ESCAPED GORILLA")
+ dialogue_text("GORILA")
 text_character_09:
  dialogue_text("VENOM")
 text_character_10:
  dialogue_text("ELECTRO")
 text_character_11:
- dialogue_text("LIGHTNING CREATURE")
+ dialogue_text("CRIATURA DE LUZ")
 text_character_12:
  dialogue_text("VENOM")
 text_character_13:
- dialogue_text("LIZARD")
+ dialogue_text("LAGARDO")
 text_character_14:
- dialogue_text("ALLIGATOR")
+ dialogue_text("ALIGATOR")
 text_character_15:
- dialogue_text("MUTANT JUMPER")
+ dialogue_text("MUTANTE")
 text_character_16:
  dialogue_text("VENOM")
 text_character_17:

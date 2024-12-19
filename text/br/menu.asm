@@ -27,6 +27,8 @@ text_menu_12:
 menu_text("ENERGIA:")
 text_menu_13:
 menu_text("CONTINUAR?")
+
+origin $000722C8
 text_menu_17:
 menu_text("    FACIL")
 origin $0003BEF4

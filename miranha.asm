@@ -58,6 +58,7 @@ if (CONFIG_LANGUAGE == PORTUGUESE) {
     include "text/br/locais.asm"
     include "text/br/dialogos.asm"
     include "text/br/personagens.asm"
+    include "text/br/grafico_hud_menu.asm"
    
 }
 
@@ -75,7 +76,14 @@ origin $000001F0
 
     define CONFIG_ROM_SIZE(pc())
 
-origin $0003F6AC 
-desvio_1:
-    beq.s   $03F6D0
+origin $0003F86C
+move.l  d4,(a4)
+    subq.w  #1,d2
+jmp $0003F872
+
+
+
+//origin $0003F6AC 
+//desvio_1:
+//    beq.s   $03F6D0
 eof:
